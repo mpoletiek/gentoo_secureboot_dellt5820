@@ -1,6 +1,10 @@
 # gentoo_secureboot_dellt5820
 A step by step process for getting secure boot working in Gentoo amd64 on a Dell Precision T5820.
 
+A lot of help getting this setup initially came from these articles:
+1. https://wiki.gentoo.org/wiki/User:Sakaki/Sakaki%27s_EFI_Install_Guide/Configuring_Secure_Boot_under_OpenRC
+2. https://www.youtube.com/watch?v=7SGM5cI7YhM
+
 ## Dependencies
 ```
 emerge -v app-crypt/efitools app-crypt/sbsigntools sys-boot/mokutil dev-libs/openssl
